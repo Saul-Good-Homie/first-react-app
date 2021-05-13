@@ -1,12 +1,10 @@
 import React from 'react';
 
-function Overview() {
-	let tasks = ['A', 'B', 'C'];
-	console.log(tasks);
-
+function Overview(props) {
 	return (
 		<div>
-			<ul></ul>
+			<h3> {props.task}</h3>
+			<hr />
 		</div>
 	);
 }
